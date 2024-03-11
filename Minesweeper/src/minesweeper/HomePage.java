@@ -27,7 +27,7 @@ public class HomePage extends javax.swing.JFrame {
                                 b.setFlag(false);
                                 flagCounter++;
                             } else if (!b.isFlag() && flagCounter > 0) {
-                                b.setIcon(new ImageIcon("C:\\Users\\ahmet\\Documents\\NetBeansProjects\\SwingCalisma1\\src\\flag.png"));
+                                b.setIcon(new ImageIcon("flag.png"));
                                 b.setFlag(true);
                                 flagCounter--;
                             }
@@ -132,7 +132,7 @@ public class HomePage extends javax.swing.JFrame {
         for (int r = 0; r < board.length; r++) {
             for (int c = 0; c < board[0].length; c++) {
                 if (board[r][c].isMine()) {
-                    board[r][c].setIcon(new ImageIcon("C:\\Users\\ahmet\\Documents\\NetBeansProjects\\SwingCalisma1\\src\\mine.png"));
+                    board[r][c].setIcon(new ImageIcon("mine.png"));
                 } else {
                     board[r][c].setText(board[r][c].getCount() + "");
                 }
