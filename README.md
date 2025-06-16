@@ -65,17 +65,16 @@ Projeyi yerel makinenizde çalıştırmak için:
 
 1.  Bu repoyu klonlayın:
     ```bash
-    git clone https://github.com/[KULLANICI_ADINIZ]/[REPO_ADINIZ].git
+    git clone https://github.com/ZaifAhmet/Minesweeper.git
     ```
 2.  Proje dizinine gidin:
     ```bash
-    cd [REPO_ADINIZ]
+    cd Minesweeper/src/minesweeper
     ```
 3.  Java Development Kit (JDK) 8 veya üzeri bir sürümün kurulu olduğundan emin olun.
 4.  Oyunun ana sınıfını (`.java` dosyasını) derleyin ve çalıştırın:
-    *   Eğer ana sınıfınızın adı `MayinTarlasi.java` ise:
         ```bash
-        javac MayinTarlasi.java
-        java MayinTarlasi
+        javac HomePage.java
+        java HomePage
         ```
-    *(Not: Eğer projeniz daha karmaşık bir yapıya sahipse veya bir IDE (Eclipse, IntelliJ IDEA vb.) kullanıyorsanız, çalıştırma adımları farklılık gösterebilir.)*
+    
