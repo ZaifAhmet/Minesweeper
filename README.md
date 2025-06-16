@@ -8,19 +8,19 @@ Oyunun farklı aşamalarından bazı görünümler:
 
 **1. Oyun Başlangıcı (Boş Tahta):**
 ![Oyun Başlangıcı](8db27404-200f-459f-9bd8-648098f805a1.png)
-*Oyunun ilk açıldığındaki boş ve tıklanmaya hazır tahta görünümü.*
+*   *Oyunun ilk açıldığındaki boş ve tıklanmaya hazır tahta görünümü.*
 
 **2. Oyun İlerleyişi (Açılmış Hücreler ve Mayınlar):**
 ![Oyun İlerleyişi](3ff3ecc3-cec5-438e-b268-02fb4634c81a.png)
-*Oyun sırasında açılmış hücreler, komşu mayın sayıları ve (oyun sonunda) ortaya çıkan mayınlar.*
+*   *Oyun sırasında açılmış hücreler, komşu mayın sayıları ve flag ile işaretlenmiş gizli mayınlar.*
 
 **3. Oyun Sonu (Mayına Basıldığında):**
 ![Oyun Sonu - Kayıp](5b65d840-264a-41f2-ac7c-c9d33dfc341e.png)
-*Bir mayına tıklandığında çıkan "Yandınız oyun bitti." mesajı.*
+*   *Bir mayına tıklandığında çıkan "Yandınız oyun bitti." mesajı.*
 
 **4. Oyun Sonu (Tüm Mayınların Gösterilmesi):**
 ![Oyun Sonu - Tüm Mayınlar](537d22b2-698b-4118-bb68-798fb6e3fe4f.png)
-*Oyun kaybedildiğinde veya kazanıldığında tüm mayınların tahta üzerinde gösterildiği durum.*
+*   *Oyun kaybedildiğinde veya kazanıldığında tüm mayınların tahta üzerinde gösterildiği durum.*
 
 ## Özellikler
 
@@ -55,9 +55,6 @@ Bu projede üzerinde durulan temel konular şunlardır:
     *   Hücreleri temsil etmek için `JButton` bileşenlerinin kullanılması.
     *   `ActionListener` arayüzü ile kullanıcı tıklamalarına tepki verilmesi ve oyun mantığının tetiklenmesi.
     *   `JOptionPane` ile oyun sonu mesajlarının gösterilmesi.
-*   **Nesne Yönelimli Programlama (OOP) Kavramları:**
-    *   Oyun tahtası, hücreler gibi oyun elemanlarını temsil eden sınıflar oluşturularak problem daha modüler bir şekilde çözülmeye çalışıldı. (Örneğin, her bir `JButton` aynı zamanda bir hücrenin durumunu (mayınlı mı, açık mı, bayraklı mı, komşu mayın sayısı vb.) temsil edebilir veya ayrı bir `Cell` sınıfı bu bilgileri tutabilir.)
-    *   Kapsülleme (Encapsulation) ile hücrelerin iç durumlarının korunması ve kontrollü erişim sağlanması.
 
 ## Kurulum ve Çalıştırma
 
@@ -73,8 +70,8 @@ Projeyi yerel makinenizde çalıştırmak için:
     ```
 3.  Java Development Kit (JDK) 8 veya üzeri bir sürümün kurulu olduğundan emin olun.
 4.  Oyunun ana sınıfını (`.java` dosyasını) derleyin ve çalıştırın:
-        ```bash
-        javac HomePage.java
-        java HomePage
-        ```
+   ```bash
+   javac HomePage.java
+   java HomePage
+   ```
     
